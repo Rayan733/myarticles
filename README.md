@@ -168,31 +168,32 @@
     </section>
 
     <section>
-      <h2>1. The Gaslighter 🧠 </h2>
+      
       <article>
+        <h2>1. The Gaslighter 🧠 </h2>
         <h3>What Is Gaslighting?</h3>
         <blockquote cite="https://www.goodtherapy.org/blog/psychpedia/gaslighting?utm_source=chatgpt.com">
           Gaslighting is a type of emotional abuse. Someone who is gaslighting will try to make a targeted
           person doubt their perception of reality. The gaslighter may convince the target that their memories
           are wrong or that they are overreacting to an event. The abuser may then present their own thoughts
-          and feelings as “the real truth.<br>
+          and feelings as <strong>“the real truth.</strong><br>
           Gaslighting is an abusive tactic aimed to make a person doubt their own thoughts and feelings. The
-          abuse is often subtle at first. For example, if a person is telling a story, the abuser may
+          abuse is often subtle at first. <strong>For example,</strong> if a person is telling a story, the abuser may
           challenge a small detail. The person may admit they were wrong on a detail, then move on. The next
-          time, the abuser may use that past “victory” to discredit the person further, perhaps by questioning
+          time, the abuser may use that past <strong>“victory”</strong> to discredit the person further, perhaps by questioning
           the person’s memory.<br>
           The person may argue back at first. They may intuit something is wrong in the relationship or
           marriage. But because each gaslighting incident is so minor, they can’t pinpoint any specific cause
           for their unease. Over time, the person may second-guess their own emotions and memories. They may
-          rely on their abuser to tell them if their memory is correct of if their emotions are “reasonable.”
+          rely on their abuser to tell them if their memory is correct of if their emotions are <strong>“reasonable.”</strong>
           The abuser uses this trust to gain control over their target. <br>
           Popular culture often depicts gaslighting as a man abusing his wife. Yet people of any gender can
           gaslight others or be gaslit themselves. Gaslighting can also occur in platonic contexts such as a
           workplace. Anyone can be a target.
-          A gaslighter often uses the target’s “mistakes” and “overreactions” to cast themself as the victim.
-          For example, an abuser may scream accusations at a person until the other party must raise their
-          voice to be heard. The abuser may then cut the conversation short, claiming the other person is “out
-          of control” and “too aggressive.” In some cases, the abuser may accuse the other person of being the
+          A gaslighter often uses the target’s <strong>“mistakes” and “overreactions”</strong> to cast themself as the victim.
+          <strong>For example,</strong> an abuser may scream accusations at a person until the other party must raise their
+          voice to be heard. The abuser may then cut the conversation short, claiming the other person is <strong>“out
+          of control” and “too aggressive.”</strong> In some cases, the abuser may accuse the other person of being the
           true gaslighter. <br>
 
           <h3>How to Protect Yourself</h3>
@@ -263,16 +264,16 @@
           manipulator's ability to twist the narrative or make herself appear innocent or even victimized.
         </p>
         <p>
-          <h3>How to Protect Yourself</h3>
-          To <strong>protect yourself from a female manipulator,</strong> you need to first recognize that emotional
-          manipulation is still manipulation—even if it's soft-spoken or tear-filled. Trust your gut when something
-          feels off. Confusion, guilt, and exhaustion are often your first signals that you’re being emotionally played.
-          Take time to observe patterns in her behavior: Does she regularly cry or play the victim when things don’t go
-          her way? Does she twist your words or deny things she previously said? Does she use guilt to get what she
-          wants? These are all red flags. Once you recognize the patterns, start setting <strong>firm and healthy
-            boundaries.</strong> Don’t let tears or emotional drama override your decisions or values. Say “no” when
-          needed, and <strong>don’t justify or over-explain</strong> yourself to avoid her reactions—manipulators thrive
-          on making you feel like you have to earn their acceptance.
+        <h3>How to Protect Yourself</h3>
+        To <strong>protect yourself from a female manipulator,</strong> you need to first recognize that emotional
+        manipulation is still manipulation—even if it's soft-spoken or tear-filled. Trust your gut when something
+        feels off. Confusion, guilt, and exhaustion are often your first signals that you’re being emotionally played.
+        Take time to observe patterns in her behavior: Does she regularly cry or play the victim when things don’t go
+        her way? Does she twist your words or deny things she previously said? Does she use guilt to get what she
+        wants? These are all red flags. Once you recognize the patterns, start setting <strong>firm and healthy
+          boundaries.</strong> Don’t let tears or emotional drama override your decisions or values. Say “no” when
+        needed, and <strong>don’t justify or over-explain</strong> yourself to avoid her reactions—manipulators thrive
+        on making you feel like you have to earn their acceptance.
         </p>
         <p>
           It’s also important to <strong>stop oversharing your vulnerabilities</strong> with someone who uses them
@@ -295,11 +296,59 @@
           happy.
         </p>
       </article>
+      <article>
+        <h2>3 The Narcissist 🐍</h2>
+        <h3>Spot a female narcissist</h3>
+        <p>
+          The female narcissist is not always easy to spot at first. She often comes across as <strong>confident,
+            charming, or even nurturing.</strong> However, underneath that surface is someone who is deeply insecure and
+          driven by a constant hunger for <strong>attention and admiration.</strong> She needs to be the center of focus
+          in any environment—social settings, relationships, workspaces—and will often go to great lengths to ensure
+          that happens. This might involve showing off,<strong>exaggerating her accomplishments, or presenting herself
+            as a victim to gain sympathy.</strong> The attention she seeks is not just for reassurance—it’s essential to
+          her self-image. Without it, she may feel threatened, empty, or invisible. This need for admiration makes her
+          relationships feel one-sided, where she expects constant praise and validation but rarely gives it in return.
+          At the same time, she often lacks true emotional empathy. While she might seem <strong>understanding or
+            compassionate in certain moments,</strong> it’s often a performance. Deep down, she does not connect to
+          other people’s pain or needs unless it affects her directly. She may use kindness as a tool to manipulate or
+          get something in return, but once the usefulness of someone fades, so does her interest in them. People are
+          seen more as objects or roles in her story, rather than individuals with their own worth. What’s more
+          disturbing is how she reacts when she feels she’s not being prioritized. Even subtle shifts in attention—like
+          a friend focusing on their own needs, or a partner being busy—can trigger strong emotional reactions. She
+          might become cold, passive-aggressive, guilt-trip others, or start a conflict just to shift attention back to
+          herself. If she cannot regain control, she may escalate into anger, smear campaigns, or emotional withdrawal
+          to punish those around her. These behaviors are not occasional—they form a pattern that repeats across
+          relationships and situations, leaving others <strong>confused, drained, and doubting</strong> themselves.
+        </p>
+        <h3>How to Protect Yourself</h3>
+        <p>
+          Protecting yourself from this kind of toxic pattern begins with awareness. The first and most important step
+          is to recognize the behavior for what it is and stop making excuses for it. Many people stay too long in
+          relationships with female narcissists because they mistake the early charm or occasional kindness as proof of
+          change. But change rarely comes, and the cycle continues. Set clear <strong>boundaries, both emotionally and
+            physically,</strong> and don’t let them be crossed. If she reacts badly to your boundaries—by becoming
+          angry, cold, or manipulative—that’s not a sign you’re being unfair. It’s a sign that the boundary is working.
+          Try not to get emotionally pulled into her drama. The <strong>“gray rock”</strong> technique can help—this
+          means staying as emotionally neutral and boring as a gray rock. Don’t react with excitement, anger, or guilt.
+          Just remain calm and detached. Over time, this makes you less appealing as a source of emotional fuel. Limit
+          how much personal information you share with her, because she may use it later to control, shame, or
+          emotionally manipulate you. Instead, confide in people you trust and keep your support system strong. Pay
+          attention to patterns, not promises—because narcissists often apologize to maintain control, not because they
+          truly regret their actions. If you consistently feel blamed, confused, used, or emotionally exhausted after
+          interactions with her, those feelings are not random—they’re signals. In the end, the healthiest choice may be
+          distance or complete detachment. You don’t owe anyone access to your mind, time, or heart—especially someone
+          who only values you for what you provide, not for who you are. <strong>Trust your instincts, protect your
+            energy, and prioritize your emotional well-being.</strong>
+        </p>
+        
+
+      </article>
     </section>
   </main>
 
   <footer>
-    <H3>The rest of the articles will be added soon. I'm currently studying and researching to bring them to your awareness.</H3>
+    <H3>The rest of the articles will be added soon. I'm currently studying and researching to bring them to your
+      awareness.</H3>
 
 
     <p>&copy; 2025 BehindHerSmile. All rights reserved.</p>
