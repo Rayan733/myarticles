@@ -189,7 +189,7 @@
 
       <article>
         <h2 id="gas">1. The Gaslighter 🧠 </h2>
-        <img src="https://sdmntprwestus2.oaiusercontent.com/files/00000000-db48-61f8-bc89-6563215413f0/raw?se=2025-08-01T11%3A53%3A15Z&sp=r&sv=2024-08-04&sr=b&scid=9e1b6808-4fff-5c0b-8a4d-6805ac2ea0e9&skoid=ea0c7534-f237-4ccd-b7ea-766c4ed977ad&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-31T21%3A38%3A51Z&ske=2025-08-01T21%3A38%3A51Z&sks=b&skv=2024-08-04&sig=ZEvPF3KJ7ZYnyyLxPOjeVUxDw6JGh%2BziuTSpzZb4MxY%3D" alt="Gaslighter women" width="20%" height="40%">
+        <img src="dark-women.png" width="20%" height="40%">
         <h3>What Is Gaslighting?</h3>
         <blockquote cite="https://www.goodtherapy.org/blog/psychpedia/gaslighting?utm_source=chatgpt.com">
           Gaslighting is a type of emotional abuse. Someone who is gaslighting will try to make a targeted
