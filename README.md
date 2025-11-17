@@ -1,545 +1,1108 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BehindHerSmile | Guide to Spotting Manipulative Women | Female Narcissists Red
-    Flags & How to Protect Yourself</title>
-
-  <style>
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlobeFares</title>
+  <Style>
+    * {
       margin: 0;
-      padding: 0 20px;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
     }
 
-    header,
-    footer {
-      padding: 20px 0;
+    body {
+      background: #ffffff;
+    }
+
+    /* ------------ TOP NAVIGATION ------------ */
+    .top-header {
+      width: 100%;
+      padding: 15px 40px;
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    
+    .logo .plane {
+      width: 250px;
+      margin-left: 5px;
+    }
+
+    .top-header nav {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #04074b
+      font-size: 16px;
+      font-weight: 550;
+    }
+
+    .flag {
+      width: 28px;
+    }
+
+    /* ------------ BACKGROUND SLIDER ------------ */
+   
+
+    .hero {
+  position: relative;
+  min-height: 600px;   /* allows expansion */
+  display: flex;
+}
+
+.bg-slide {
+  flex: 1;
+  height: 600px;       /* ensures scrolling height */
+  background-size: cover;
+  background-position: center;
+}
+
+.search-panel {
+  position: relative;  /* remove absolute */
+  margin-top: 120px;
+  width: 85%;
+  text-align: center;
+  color: white;
+}
+
+    /* Images (replace with your originals if needed) */
+    .img1 {
+      background-image: url("eiffel.png");
+    }
+
+    .img2 {
+      background-image: url("liberty.png");
+    }
+
+    .img3 {
+      background-image: url("burjkhalifa.png");
+    }
+
+    .img4 {
+      background-image: url("skylines.png");
+    }
+
+    .img5 {
+      background-image: url("rome.png");
+    }
+
+    .img6 {
+      background-image: url("kutubminar.png");
+    }
+
+    .img7 {
+      background-image: url("londonbridge.png");
+    }
+
+    /* ------------ SEARCH PANEL ------------ */
+    .search-panel {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 85%;
       text-align: center;
-      border-bottom: 1px solid #444;
+      color: white;
     }
 
-    footer {
-      border-top: 1px solid #444;
-      border-bottom: none;
-      margin-top: 40px;
+    /* TOP TABS */
+    .top-tabs button {
+      background: rgba(0, 0, 0, 0.55);
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      margin: 150px 5px;
+      font-size: 16px;
+      cursor: pointer;
     }
 
-    h1,
-    h2,
-    h3,
-    marquee {
-      color: #f26a6a;
+    .top-tabs .active {
+      background: rgba(50, 50, 80, 0.8);
     }
 
-    ol {
-      margin-left: 20px;
+    /* TRIP TYPE */
+    /* Keep all elements in one line */
+.trip-type {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+/* Buttons styling stays same */
+.trip-type button {
+background: rgba(0, 0, 0, 0.55);
+border: none;
+color: white;
+padding: 10px 22px;
+border-radius: 25px;
+cursor: pointer;
+white-space: nowrap;
+}
+    .triptype-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.triptype-btn {
+  background: rgba(0,0,0,0.55);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px 10px 0 0;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.trip-icon {
+  opacity: 0.8;
+}
+
+.arrow {
+  font-size: 12px;
+  margin-left: auto;
+}
+
+.triptype-menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 220px;
+  background: #2b2f36;
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  z-index: 9999;
+}
+
+.triptype-menu li {
+  padding: 14px 18px;
+  cursor: pointer;
+  color: #ddd;
+  font-size: 15px;
+}
+
+.triptype-menu li:hover {
+  background: #363c47;
+}
+
+.triptype-menu li.active {
+  background: #43506a;
+  font-weight: 500;
+}
+
+.check {
+  margin-right: 10px;
+  opacity: 0.9;
+}
+
+
+   
+    /* DROPDOWN */
+    .cabin-dropdown {
+      position: relative;
+      /* anchor for dropdown */
     }
 
-    ul {
-      margin-left: 40px;
+    .cabin-btn {
+      background: rgba(0, 0, 0, 0.55);
+      color: white;
+      padding: 10px 22px;
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Dropdown menu appears directly under button */
+    .cabin-menu {
+      position: absolute;
+      top: 48px;
+      /* 👈 aligns UNDER the Economy button */
+      left: 0;
+      width: 200px;
+      background: #2b2f36;
+      border-radius: 12px;
+      padding: 0;
+      list-style: none;
+      display: none;
+      z-index: 99999;
+    }
+
+    .cabin-menu li {
+      padding: 12px;
+      color: #e5e5e5;
+      cursor: pointer;
+    }
+
+    .cabin-menu li.active {
+      background: #3e4a63;
+      color: white;
+    }
+
+    .cabin-menu li:hover {
+      background: #4d5a78;
+    }
+
+    /* Checkmark spacing */
+    .check {
+      margin-right: 6px;
+    }
+
+
+    /* SEARCH FIELDS */
+    .search-box {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .search-box input {
+      width: 22%;
+      padding: 12px;
+      border-radius: 25px;
+      border: none;
+      outline: none;
+      font-size: 15px;
+    }
+
+    .search-btn {
+      width: 18%;
+      padding: 12px;
+      border-radius: 25px;
+      border: none;
+      font-size: 17px;
+      background: #1a1f3a;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* FILTERS */
+    .filters {
+      margin-top: 18px;
+    }
+
+    .filters button {
+      background: rgba(0, 0, 0, 0.55);
+      border: none;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 20px;
+      margin: 4px;
+      cursor: pointer;
+    }
+
+    .passenger-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.passenger-btn {
+  background: rgba(0,0,0,0.50);
+  color: white;
+  padding: 7px 13px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.passenger-menu {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 250px;
+  padding: 10px;
+  background: #2b2f36;
+  border-radius: 15px;
+  display: none;
+  z-index: 9999;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #3a3f4a;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  color: white;
+  font-size: 16px;
+}
+
+.sub {
+  color: #c6c6c6;
+  font-size: 12px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.counter button {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background: #4a4f5a;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.counter span {
+  width: 20px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  color: #8bb1ff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+<!--WHY CHOOSE GLOBEFARES-->
+
+/* SECTION WRAPPER */
+.why-section {
+    width: 100%;
+    background: #000;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* MAIN CONTAINER */
+.why-globefares {
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+/* HEADING */
+.heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* BENEFITS LIST */
+.why-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.why-box span {
+    background: #111827;
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #e5e5e5;
+    border: 1px solid #2b2f36;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.why-box span:hover {
+    background: #1f2937;
+    transform: translateY(-2px);
+}
+
+.features-section {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      background: #fff;
+      padding: 40px 0;
+    }
+    .feature-box {
+      text-align: center;
+      width: 220px;
+    }
+    .feature-icon {
+      font-size: 56px;
       margin-bottom: 20px;
+      color: #04074b;
+      display: block;
+    }
+    .feature-title {
+      font-size: 20px;
+      font-weight: 550;
+      margin: 0;
+      color: #04074b
+    }
+    
+    /* AIRLINES & TRAVEL PARTNERS SECTION */
+
+    .section-container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 16px;
+      font-family: Arial, sans-serif;
+    }
+    .section-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+    .section-info {
+      flex-basis: 23%;
+      min-width: 250px;
+    }
+    .section-info h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #222;
+    }
+    .section-info p {
+      color: #444;
+      margin-top: 0;
+      font-size: 1.1rem;
+    }
+    .logos-grid {
+      flex-basis: 75%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px 42px;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .logo-item {
+      flex: 0 0 130px;
+      margin-bottom: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-item img {
+      max-width: 120px;
+      max-height: 40px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.05));
+    }
+    @media (max-width: 900px) {
+      .section-row {
+        flex-direction: column;
+      }
+      .logos-grid {
+        justify-content: flex-start;
+      }
     }
 
-    strong {
-      color: #ffd700;
-    }
+    /* FLIGHT TO TOP CITIES AND COUNTRY FOR UNITED STATE */
 
-    a {
-      color: #00bfff;
+    .dest-section {
+      max-width: 1100px;
+      margin: 45px auto;
+      font-family: Arial, sans-serif;
+      color: #222;
+      padding: 0 16px;
+    }
+    .dest-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+      margin-top: 32px;
+    }
+    .dest-list-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 44px;
+    }
+    .dest-col {
+      flex: 1 1 220px;
+      min-width: 170px;
+      margin-bottom: 12px;
+    }
+    .dest-link {
+      display: block;
+      margin-bottom: 8px;
+      color: #222;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .dest-link:hover {
+      color: #1e88e5;
       text-decoration: underline;
     }
+    @media (max-width: 800px) {
+      .dest-list-grid {
+        flex-direction: column;
+        gap: 0;
+      }
+      .dest-col {
+        min-width: 100%;
+      }
+    }
+    /* FOOTER LINKS */
 
-    a:hover {
+    .site-footer {
+      background: #191919;
+      color: #fff;
+      padding: 50px 0 16px;
+      font-family: Arial, sans-serif;
+    }
+    .footer-main {
+      max-width: 1200px;
+      margin: 0 auto 18px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0 32px;
+    }
+    .footer-col {
+      min-width: 180px;
+      margin-bottom: 22px;
+    }
+    .footer-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+      letter-spacing: 0.5px;
+    }
+    .footer-list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .footer-list li {
+      margin-bottom: 11px;
+    }
+    .footer-list a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .footer-list a:hover {
+      color: #35C047;
+      text-decoration: underline;
+    }
+    .footer-badge {
+      background: #ff8717;
+      color: #fff;
+      border-radius: 5px;
+      padding: 2px 9px;
+      font-size: 0.88em;
+      margin-left: 7px;
+      vertical-align: middle;
+    }
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 23px 32px 0 32px;
+      font-size: 1rem;
+      border-top: 1px solid #333;
+      color: #dedede;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-social {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .footer-social a {
+      color: #fff;
+      font-size: 1.25rem;
+      transition: color 0.2s;
       text-decoration: none;
     }
-
-    p {
-      margin-bottom: 1.2em;
+    .footer-social a:hover {
+      color: #35C047;
+    }
+    @media (max-width: 900px) {
+      .footer-main {
+        flex-direction: column;
+        padding: 0 18px;
+      }
+      .footer-col {
+        margin-bottom: 35px;
+      }
+      .footer-bottom {
+        flex-direction: column;
+        padding: 20px 18px 0 18px;
+        align-items: flex-start;
+        gap: 10px;
+      }
     }
 
-    section {
-      padding: 20px 0;
-    }
 
-    article {
-      border: 1px solid #333;
-      background-color: #111;
-      border-left: 4px solid #f26a6a;
-      padding: 15px 20px;
-      margin: 20px 0;
-      font-style: italic;
-    }
+    
+  </Style>
 
-    img {
-      border: white solid;
-
-
-    }
-  </style>
 </head>
 
 <body>
-  <marquee behavior="scroll" direction="left">The rest of the articles will be added soon. I'm currently studying and
-    researching to bring them into your
-    awareness.</marquee>
 
-  <header>
-    <h1>Punitor Feminarum Nefanda</h1>
-    <img src="punisher-men.png" width="20%" height="40%">
-    <p>You called me a tale… a formless shadow. a whisper in the dark.
-      But I am the vengeance born from your sins. I do not forgive. I do not forget. I watch from the shadows, and when
-      the time is right, I come... not for mercy, but for balance. I am Punitor Feminarum Nefanda — and your judgment
-      has begun.</p>
-    <!--<p>This page is dedicated to a woman who taught me that, <br> how far some women can go for attention and control
-      over a man. <br>
-      I would have never known, if she hadn't come into my life, thank you. <br>
+  <!-- TOP BAR -->
+  <header class="top-header">
+    <div class="logo">
+      <img src="globefares logo.png" class="plane">
+      
+    </div>
 
-      Every moment that I spent with her was a part of her mind games.
-      And every move had a purpose.</p>-->
+    <nav>
+      <img src="https://flagcdn.com/w20/us.png" class="flag">
+      <a href="#">EN</a>
+      <a href="#">USD</a>
+      <a href="#">SUPPORT</a>
+      <a href="#">LOGIN</a>
+    </nav>
   </header>
 
 
+  <!-- HERO BACKGROUND -->
+  <section class="hero">
+    <div class="bg-slide img1"></div>
+    <div class="bg-slide img2"></div>
+    <div class="bg-slide img3"></div>
+    <div class="bg-slide img4"></div>
+    <div class="bg-slide img5"></div>
+    <div class="bg-slide img6"></div>
+    <div class="bg-slide img7"></div>
 
-  <main>
-    <section>
-      <h2>Evil behavioral Types of female (Social Observation)</h2>
-      <div>
-        <ol>
-          <strong>1. 🧠 The Gaslighter</strong><a href="#gas"
-            style="padding: 3px 6px; margin-left:10px; background-color: #007bff; color: white; border: none; border-radius: 5px; text-decoration: none;">Click
-            to Jump</a>
-          <ul>
-            <li>Twists reality to make you doubt your memory or sanity.</li>
-            <li>Constantly denies things she said or did.</li>
-            <li>Uses confusion as a weapon.</li>
-          </ul>
-          <strong>2. 🕷 The Manipulator</strong><a href="#man"
-            style="padding: 3px 6px; margin-left:10px; background-color: #007bff; color: white; border: none; border-radius: 5px; text-decoration: none;">Click
-            to Jump</a>
-          <ul>
-            <li>Plays emotional games to control outcomes.</li>
-            <li>Uses guilt, crying, or passive-aggression to get her way.</li>
-            <li>Often knows your weaknesses and exploits them.</li>
-          </ul>
-          <strong>3. 🐍 The Narcissist</strong><a href="#nar"
-            style="padding: 3px 6px; margin-left:10px; background-color: #007bff; color: white; border: none; border-radius: 5px; text-decoration: none;">Click
-            to Jump</a>
-          <ul>
-            <li>Craves constant attention and admiration.</li>
-            <li>Lacks empathy, sees others as tools.</li>
-            <li>Gets angry when not prioritized.</li>
-          </ul>
-          <strong>4. 🧊 The Ice Queen</strong><a href="#Ice"
-            style="padding: 3px 6px; margin-left:10px; background-color: #007bff; color: white; border: none; border-radius: 5px; text-decoration: none;">Click
-            to Jump</a>
-          <ul>
-            <li>Emotionally distant but keeps you hooked.</li>
-            <li>Uses coldness or withdrawal as punishment.</li>
-            <li>Keeps power by keeping you guessing.</li>
-          </ul>
-          <strong>5. 🎭 The Victim Player</strong><a href="#vic"
-            style="padding: 3px 6px; margin-left:10px; background-color: #007bff; color: white; border: none; border-radius: 5px; text-decoration: none;">Click
-            to Jump</a>
-          <ul>
-            <li>Always blames others, never takes responsibility.</li>
-            <li>Uses sympathy to avoid accountability.</li>
-            <li>Turns everything into how you hurt her.</li>
-          </ul>
-          <strong>6. 💋 The Seductive User</strong>
-          <ul>
-            <li>Uses charm, flirting, or sex to manipulate.</li>
-            <li>Often leaves when she gets what she wants.</li>
-            <li>Creates false emotional connections.</li>
-          </ul>
-          <strong>7. 👑 The Entitled Princess</strong>
-          <ul>
-            <li>Believes she deserves everything without giving back.</li>
-            <li>Demands perfection and constant validation.</li>
-            <li>Treats people like servants, not equals.</li>
-          </ul>
-          <strong>8. 🐺 The Social Predator</strong>
-          <ul>
-            <li>Plays people against each other (especially other women).</li>
-            <li>Thrives on drama, gossip, and betrayal.</li>
-            <li>Uses others weaknesses socially to dominate.</li>
-          </ul>
-          <strong>9. 🧨 The Drama Seeker</strong>
-          <ul>
-            <li>Constantly creates chaos to feel alive.</li>
-            <li>Turns small issues into major battles.</li>
-            <li>Feeds off emotional instability.</li>
-          </ul>
-          <strong>10. 👻 The Ghoulish Ghoster</strong>
-          <ul>
-            <li>Disappears after love-bombing.</li>
-            <li>No closure, just silence.</li>
-            <li>Leaves others emotionally wrecked.</li>
-          </ul>
+    <!-- SEARCH PANEL -->
+    <div class="search-panel">
 
-        </ol>
+      <!-- TABS -->
+      <div class="top-tabs">
+        <button class="active"><span>✈</span> Flights</button>
+        <button><span>🏨</span> Hotels</button>
+        <button><span>🚗</span> Cars</button>
+      </div>
+
+      <!-- TRIP TYPE -->
+
+
+      <div class="trip-type">
+        <div class="triptype-dropdown">
+  <button class="triptype-btn" id="tripBtn">
+    <span class="trip-icon">⇄</span>
+    <span id="tripSelected">Round trip</span>
+    <span class="arrow">▲</span>
+  </button>
+
+  <ul class="triptype-menu" id="tripMenu">
+    <li class="active"><span class="check"></span> Round trip</li>
+    <li>One way</li>
+    <li>Multi-city</li>
+  </ul>
+</div>
+
+        
+
+        <div class="cabin-dropdown">
+          <button class="cabin-btn" id="cabinBtn">
+            <span id="cabinSelected">Economy</span>
+            <span class="arrow">▲</span>
+          </button>
+
+          <ul class="cabin-menu" id="cabinMenu">
+            <li class="active"><span class="check"></span> Economy</li>
+            <li>Premium economy</li>
+            <li>Business</li>
+            <li>First</li>
+          </ul>
+        </div>
+
+        <div class="passenger-dropdown">
+  <button class="passenger-btn" id="passengerBtn">
+    👤 <span id="passengerCount">1 Passenger</span>
+    <span class="arrow">▲</span>
+  </button>
+
+  <div class="passenger-menu" id="passengerMenu">
+    
+    <!-- ADULTS -->
+    <div class="row">
+      <div class="label">
+        Adults<br><span class="sub">Aged 12+</span>
+      </div>
+      <div class="counter">
+        <button class="minus" onclick="changeCount('adults', -1)">−</button>
+        <span id="adults">1</span>
+        <button class="plus" onclick="changeCount('adults', 1)">+</button>
+      </div>
+    </div>
+
+    <!-- CHILDREN -->
+    <div class="row">
+      <div class="label">
+        Children<br><span class="sub">Aged 2–11</span>
+      </div>
+      <div class="counter">
+        <button class="minus" onclick="changeCount('children', -1)">−</button>
+        <span id="children">0</span>
+        <button class="plus" onclick="changeCount('children', 1)">+</button>
+      </div>
+    </div>
+
+    <!-- INFANTS SEAT -->
+    <div class="row">
+      <div class="label">
+        Infants<br><span class="sub">In seat</span>
+      </div>
+      <div class="counter">
+        <button class="minus" onclick="changeCount('infantSeat', -1)">−</button>
+        <span id="infantSeat">0</span>
+        <button class="plus" onclick="changeCount('infantSeat', 1)">+</button>
+      </div>
+    </div>
+
+    <!-- INFANTS LAP -->
+    <div class="row">
+      <div class="label">
+        Infants<br><span class="sub">On lap</span>
+      </div>
+      <div class="counter">
+        <button class="minus" onclick="changeCount('infantLap', -1)">−</button>
+        <span id="infantLap">0</span>
+        <button class="plus" onclick="changeCount('infantLap', 1)">+</button>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="cancel" onclick="closePassengers()">Cancel</button>
+      <button class="done" onclick="closePassengers()">Done</button>
+    </div>
+  </div>
+</div>
+
 
       </div>
 
 
-      <p>❗Important Note: These behaviors are not exclusive to women — men can be just as toxic.
-        The point is not to hate, but to recognize harmful patterns so you can protect your mental and emotional
-        well-being.</p>
-    </section>
-
-    <section>
-
-      <article>
-        <h2 id="gas">1. The Gaslighter 🧠 </h2>
-        <img src="smile-women.png" width="20%" height="40%">
-        <h3>What Is Gaslighting?</h3>
-        <blockquote cite="https://www.goodtherapy.org/blog/psychpedia/gaslighting?utm_source=chatgpt.com">
-          Gaslighting is a type of emotional abuse. Someone who is gaslighting will try to make a targeted
-          person doubt their perception of reality. The gaslighter may convince the target that their memories
-          are wrong or that they are overreacting to an event. The abuser may then present their own thoughts
-          and feelings as <strong>“the real truth.</strong><br>
-          Gaslighting is an abusive tactic aimed to make a person doubt their own thoughts and feelings. The
-          abuse is often subtle at first. <strong>For example,</strong> if a person is telling a story, the abuser may
-          challenge a small detail. The person may admit they were wrong on a detail, then move on. The next
-          time, the abuser may use that past <strong>“victory”</strong> to discredit the person further, perhaps by
-          questioning
-          the person’s memory.<br>
-          The person may argue back at first. They may intuit something is wrong in the relationship or
-          marriage. But because each gaslighting incident is so minor, they can’t pinpoint any specific cause
-          for their unease. Over time, the person may second-guess their own emotions and memories. They may
-          rely on their abuser to tell them if their memory is correct of if their emotions are
-          <strong>“reasonable.”</strong>
-          The abuser uses this trust to gain control over their target. <br>
-          Popular culture often depicts gaslighting as a man abusing his wife. Yet people of any gender can
-          gaslight others or be gaslit themselves. Gaslighting can also occur in platonic contexts such as a
-          workplace. Anyone can be a target.
-          A gaslighter often uses the target’s <strong>“mistakes” and “overreactions”</strong> to cast themself as the
-          victim.
-          <strong>For example,</strong> an abuser may scream accusations at a person until the other party must raise
-          their
-          voice to be heard. The abuser may then cut the conversation short, claiming the other person is <strong>“out
-            of control” and “too aggressive.”</strong> In some cases, the abuser may accuse the other person of being
-          the
-          true gaslighter. <br><br>
 
 
-          <h3>How to Protect Yourself From Being Trapped?</h3>
-          Often the first step to protect yourself from gaslighting is to recognize its presence. Once you
-          know you are being manipulated, you can determine your own reality more easily.
+      <!-- SEARCH FIELDS -->
+      <div class="search-box">
+        <input type="text" placeholder="Departure,City,Airport...">
+        <input type="text" placeholder="Destination,City,Airport...">
+        <input type="date" placeholder="Depart date">
+        <input type="date" placeholder="Return date">
+        <button class="search-btn">Search</button>
+      </div>
 
-          Ideally, someone experiencing abuse would get help and possibly leave the relationship. Yet
-          sometimes barriers prevent a person from leaving right away. The person may be financially dependent
-          on their abuser, or there may be children involved. <br>
+      <!-- BOTTOM FILTERS -->
+      <div class="filters">
+        <button>Nearby airports</button>
+        <button>Direct Flight</button>
+        <button>Connecting-Airports</button>
+        <button>Airlines</button>
+         <button>Date grid</button>
+        <button>Price grid</button>
+      </div>
 
-          If you are a target of gaslighting, here are some tips you can use to defend yourself: <br>
+    </div>
 
-          <strong>Don’t take responsibility for the other person’s actions.</strong> The other person may
-          claim you provoked the abuse. If you avoid the actions that offended them in the past, the
-          gaslighter will likely come up with new excuses for their abuse. <br>
-          <strong>Don’t sacrifice yourself to spare their feelings.</strong> Even if you dedicate your whole
-          life to making them happy, you will never completely fill the other person’s desire for control.
-          People who gaslight others are often trying to fill a void in themselves. But they will not fix
-          their heart by breaking yours. <br>
-          <strong>Remember your truth.</strong> Just because the other person sounds sure of themself doesn’t
-          mean they are right. The gaslighter may never see your side of the story. Yet their opinion does not
-          define reality. Nor does it define who you are as a person. <br>
-          <strong>Do not argue on their terms.</strong> If the other person is fabricating facts, you are
-          unlikely to have a productive discussion. You may spend all your energy debating what is real
-          instead of making your point. The other person may use gaslighting techniques to declare they won an
-          argument. But you do not have to accept conclusions based on a faulty premise. <br>
-          <strong>Prioritize your safety.</strong> Gaslighting often makes targets doubt their own intuition.
-          But if you feel you are in danger, you can always leave the situation. You do not need to prove a
-          gaslighter’s threats of violence are sincere before calling the police. It is often safest to treat
-          every threat as credible. <br>
-          <strong>Remember you are not alone.</strong> You may find it helpful to talk about your experiences
-          with others. Friends and family can offer emotional support and validation. <br>
-          Therapy is a safe place where you can talk through your feelings and memories without judgment. A
-          therapist can help you recognize healthy and unhealthy behaviors. They can also teach you how to
-          resist psychological manipulation. In some cases, a therapist can help you develop a safety plan for
-          leaving the relationship.
+    
+  </section>
 
+  <section>
+    <div class="features-section">
+  <div class="feature-box">
+    <!-- Replace with your image or SVG icon -->
+    <span class="feature-icon">✈️</span>
+    <p class="feature-title">Best Travel Deals in the World</p>
+  </div>
+  <div class="feature-box">
+    <span class="feature-icon">🔍</span>
+    <p class="feature-title">Thousands of Flights & Hotel Deals</p>
+  </div>
+  <div class="feature-box">
+    <span class="feature-icon">💳</span>
+    <p class="feature-title">Multiple Payment Methods</p>
+  </div>
+  <div class="feature-box">
+    <span class="feature-icon">📞</span>
+    <p class="feature-title">24/7 Customer Service Support</p>
+  </div>
+</div>
 
+</section>
+ <div class="section-container">
+    <!-- Airlines Section -->
+    <div class="section-row">
+      <div class="section-info">
+        <h2>Popular Airlines in USA</h2>
+        <p>Book cheap flights on your favorite US airlines</p>
+      </div>
+      <div class="logos-grid">
+        <div class="logo-item"><img src="https://1000logos.net/wp-content/uploads/2021/05/American-Airlines-logo.png" alt="American Airlines"></div>
+        <div class="logo-item"><img src="https://1000logos.net/wp-content/uploads/2017/03/Delta-Logo-1995.png" alt="Delta"></div>
+        <div class="logo-item"><img src="https://1000logos.net/wp-content/uploads/2017/03/United-Airlines-Logo-2010.png" alt="United Airlines"></div>
+        <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Southwest_Airlines_logo_2014.svg/512px-Southwest_Airlines_logo_2014.svg.png" alt="Southwest Airlines"></div>
+        <div class="logo-item"><img src="https://1000logos.net/wp-content/uploads/2017/05/Alaska-Airlines-Logo-768x432.png" alt="Alaska Airlines"></div>
+        <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/JetBlue_Airways_Logo.svg" alt="JetBlue"></div>
+      </div>
+    </div>
 
-        </blockquote>
-      </article>
-      <article>
-        <h2 id="man">2. The Manipulator 🕷</h2>
-        <img src="manipulate-women.png" width="30%" height="60%">
+    <!-- Travel Partners Section -->
+    <div class="section-row">
+      <div class="section-info">
+        <h2>Our Travel Partners</h2>
+        <p>We search for the best deals on these top sites in the USA</p>
+      </div>
+      <div class="logos-grid">
+        <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Expedia_Logo.svg" alt="Expedia"></div>
+        <div class="logo-item"><img src="https://1000logos.net/wp-content/uploads/2017/06/Booking.com-logo.png" alt="Booking.com"></div>
+        <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Travelocity_Logo.svg" alt="Travelocity"></div>
+        <div class="logo-item"><img src="https://1000logos.net/wp-content/uploads/2021/02/Orbitz-Logo-2018.png" alt="Orbitz"></div>
+        <div class="logo-item"><img src="https://1000logos.net/wp-content/uploads/2017/05/Priceline-Logo.png" alt="Priceline"></div>
+        <div class="logo-item"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Hotwire_Logo.svg" alt="Hotwire"></div>
+        <div class="logo-item"><img src="https://1000logos.net/wp-content/uploads/2021/05/KAYAK-logo.png" alt="Kayak"></div>
+      </div>
+    </div>
+  </div>
 
-        <h3>A female manipulator</h3>
-        <p>
-          A female manipulator is someone who skillfully uses emotional, psychological, and passive-aggressive tactics
-          to <strong>control, influence, or exploit others,</strong> often while appearing innocent, fragile, or overly
-          caring. Unlike overtly aggressive individuals, the female manipulator hides behind masks of charm,
-          helplessness, or kindness. Her behavior can be confusing because it doesn’t always look like traditional
-          "abuse" or aggression—she may not yell, threaten, or visibly dominate. Instead, she often <strong>manipulates
-            through guilt, tears, silence, emotional withdrawal, or subtle put-downs,</strong> making it difficult for
-          others to even recognize they are being controlled. She may pretend to be the victim, using <strong>crying,
-            emotional breakdowns, or exaggerated suffering</strong> to gain sympathy, deflect responsibility, or stop
-          others from holding her accountable. In romantic relationships, she might cry during arguments to derail
-          uncomfortable conversations or use phrases like “I guess you don’t care about me” to shift blame and make her
-          partner feel guilty. In friendships or family settings, she may act incapable, needy, or overburdened so that
-          others are compelled to take care of her or prioritize her needs above their own. What makes these tactics so
-          effective—and dangerous—is that they’re subtle and can leave the target feeling confused, manipulated, or even
-          guilty for noticing them. <br>
-          At the core of the female manipulator’s behavior is <strong>emotional control,</strong> often masked by
-          expressions of vulnerability or exaggerated sensitivity. She tends to exploit the emotional awareness and
-          empathy of those around her, especially people who are naturally compassionate, peace-keeping, or
-          conflict-avoidant. She might study a person’s fears, insecurities, or past trauma and <strong>use that
-            emotional data to manipulate outcomes—</strong>knowing exactly what to say, when to cry, or when to pull
-          away to get her desired result. Over time, the target may begin to question their own judgment, suppress their
-          own needs, or walk on eggshells, constantly adjusting their behavior just to keep her “okay.” These
-          relationships can be emotionally draining and mentally disorienting, yet difficult to leave because of the
-          manipulator's ability to twist the narrative or make herself appear innocent or even victimized.
-        </p>
+<section>
 
-        <p>
-        <h3>How to Protect Yourself From Being Trapped?</h3>
-        To <strong>protect yourself from a female manipulator,</strong> you need to first recognize that emotional
-        manipulation is still manipulation—even if it's soft-spoken or tear-filled. Trust your gut when something
-        feels off. Confusion, guilt, and exhaustion are often your first signals that you’re being emotionally played.
-        Take time to observe patterns in her behavior: Does she regularly cry or play the victim when things don’t go
-        her way? Does she twist your words or deny things she previously said? Does she use guilt to get what she
-        wants? These are all red flags. Once you recognize the patterns, start setting <strong>firm and healthy
-          boundaries.</strong> Don’t let tears or emotional drama override your decisions or values. Say “no” when
-        needed, and <strong>don’t justify or over-explain</strong> yourself to avoid her reactions—manipulators thrive
-        on making you feel like you have to earn their acceptance.
-        </p>
-        <p>
-          It’s also important to <strong>stop oversharing your vulnerabilities</strong> with someone who uses them
-          against you. Keep emotional boundaries just as strong as physical ones. If she uses silence, guilt, or threats
-          of emotional withdrawal to punish you, resist the urge to chase or fix things—let her sit in her discomfort.
-          <strong>Distance yourself emotionally</strong> and, if necessary, physically from her influence. You may need
-          to <strong>detach with love</strong> or even <strong>cut off contact</strong> if the manipulation becomes
-          emotionally damaging. It’s equally crucial to <strong>build a support system</strong>—talk to emotionally
-          grounded friends, a therapist, or people outside the manipulator’s circle who can help you stay clear and
-          objective. Document conversations if needed (especially in professional or legal situations), and remind
-          yourself that someone else’s feelings are not your responsibility to fix—especially when those feelings are
-          being used as a tool of control.
-        </p>
-        <p>
-          Ultimately, the most powerful protection against a female manipulator is <strong>self-awareness, strong
-            boundaries, and emotional independence.</strong> When you stop responding to guilt, stop being afraid of
-          someone else’s tears, and start valuing your peace over their approval, the manipulator loses her power.
-          Recognize the difference between authentic vulnerability and manipulation disguised as weakness. Stay grounded
-          in your truth, and remember: healthy relationships don't require you to betray yourself to keep someone else
-          happy.
-        </p>
-      </article>
-      <article>
-        <h2 id="nar">3. The Narcissist 🐍</h2>
-        <img src="dark-woman.png" alt="Narcissist women image" width="20%" height="40%">
+</section>
+<!--FLIGHT TO TOP CITIES AND COUNTRY FOR UNITED STATE-->
+<section>
+    <div class="dest-section">
+    <div class="dest-title">Flights To Top Cities from The United States</div>
+    <div class="dest-list-grid">
+      <div class="dest-col">
+        <a href="#" class="dest-link">Flights to New York City</a>
+        <a href="#" class="dest-link">Flights to Washington</a>
+        <a href="#" class="dest-link">Flights to Orlando</a>
+      </div>
+      <div class="dest-col">
+        <a href="#" class="dest-link">Flights to Los Angeles</a>
+        <a href="#" class="dest-link">Flights to San Francisco</a>
+        <a href="#" class="dest-link">Flights to Houston</a>
+      </div>
+      <div class="dest-col">
+        <a href="#" class="dest-link">Flights to Chicago</a>
+        <a href="#" class="dest-link">Flights to Las Vegas</a>
+      </div>
+      <div class="dest-col">
+        <a href="#" class="dest-link">Flights to Miami</a>
+        <a href="#" class="dest-link">Flights to Dallas</a>
+      </div>
+    </div>
 
-
-        <h3>Spot a female narcissist</h3>
-        <p>
-          The female narcissist is not always easy to spot at first. She often comes across as <strong>confident,
-            charming, or even nurturing.</strong> However, underneath that surface is someone who is deeply insecure and
-          driven by a constant hunger for <strong>attention and admiration.</strong> She needs to be the center of focus
-          in any environment—social settings, relationships, workspaces—and will often go to great lengths to ensure
-          that happens. This might involve showing off,<strong>exaggerating her accomplishments, or presenting herself
-            as a victim to gain sympathy.</strong> The attention she seeks is not just for reassurance—it’s essential to
-          her self-image. Without it, she may feel threatened, empty, or invisible. This need for admiration makes her
-          relationships feel one-sided, where she expects constant praise and validation but rarely gives it in return.
-          At the same time, she often lacks true emotional empathy. While she might seem <strong>understanding or
-            compassionate in certain moments,</strong> it’s often a performance. Deep down, she does not connect to
-          other people’s pain or needs unless it affects her directly. She may use kindness as a tool to manipulate or
-          get something in return, but once the usefulness of someone fades, so does her interest in them. People are
-          seen more as objects or roles in her story, rather than individuals with their own worth. What’s more
-          disturbing is how she reacts when she feels she’s not being prioritized. Even subtle shifts in attention—like
-          a friend focusing on their own needs, or a partner being busy—can trigger strong emotional reactions. She
-          might become cold, passive-aggressive, guilt-trip others, or start a conflict just to shift attention back to
-          herself. If she cannot regain control, she may escalate into anger, smear campaigns, or emotional withdrawal
-          to punish those around her. These behaviors are not occasional—they form a pattern that repeats across
-          relationships and situations, leaving others <strong>confused, drained, and doubting</strong> themselves.
-        </p>
-
-        <h3>How to Protect Yourself From Being Trapped?</h3>
-        <p>
-          Protecting yourself from this kind of toxic pattern begins with awareness. The first and most important step
-          is to recognize the behavior for what it is and stop making excuses for it. Many people stay too long in
-          relationships with female narcissists because they mistake the early charm or occasional kindness as proof of
-          change. But change rarely comes, and the cycle continues. Set clear <strong>boundaries, both emotionally and
-            physically,</strong> and don’t let them be crossed. If she reacts badly to your boundaries—by becoming
-          angry, cold, or manipulative—that’s not a sign you’re being unfair. It’s a sign that the boundary is working.
-          Try not to get emotionally pulled into her drama. The <strong>“gray rock”</strong> technique can help—this
-          means staying as emotionally neutral and boring as a gray rock. Don’t react with excitement, anger, or guilt.
-          Just remain calm and detached. Over time, this makes you less appealing as a source of emotional fuel. Limit
-          how much personal information you share with her, because she may use it later to control, shame, or
-          emotionally manipulate you. Instead, confide in people you trust and keep your support system strong. Pay
-          attention to patterns, not promises—because narcissists often apologize to maintain control, not because they
-          truly regret their actions. If you consistently feel blamed, confused, used, or emotionally exhausted after
-          interactions with her, those feelings are not random—they’re signals. In the end, the healthiest choice may be
-          distance or complete detachment. You don’t owe anyone access to your mind, time, or heart—especially someone
-          who only values you for what you provide, not for who you are. <strong>Trust your instincts, protect your
-            energy, and prioritize your emotional well-being.</strong>
-        </p>
-
-
-      </article>
-      <article>
-        <h2 id="Ice">4. The Ice Queen 🧊</h2>
-        <img src="ice-women.png" width="20%" height="40%">
-
-        <h3>Spot a Ice Queen</h3>
-        <p>The Ice Queen is a personality archetype marked by <strong>emotional distance and controlled
-            coldness,</strong> yet
-          paradoxically keeps others drawn in. People are often intrigued by her because she reveals very little,
-          creating an air of mystery. This type tends to avoid emotional vulnerability, often rooted in deep-seated
-          fears of closeness or past emotional injuries. By not opening up, she maintains psychological control and
-          becomes the focus of <strong>attention and pursuit.</strong> Her silence or unavailability can be
-          addictive—others keep trying
-          to earn her approval or emotional warmth, not realizing that the connection is being controlled by her
-          selective engagement.
-
-          Coldness or withdrawal is often used intentionally as a form of punishment. If someone does something that
-          displeases her or crosses an invisible boundary, she might shut down emotionally, refuse to communicate, or
-          act indifferently. This triggers anxiety in the other person, who may become increasingly desperate to
-          re-establish warmth or approval. It’s a subtle power play: she rarely argues, pleads, or explains. Instead,
-          she pulls away and lets the <strong>emotional vacuum do the damage.</strong> This behavior keeps others
-          off-balance, constantly
-          analyzing and second-guessing themselves, trying harder to please and avoid the cold shoulder.
-
-          This unpredictability—never knowing when she’ll be warm or cold—creates an emotional rollercoaster. The
-          dynamic becomes a cycle: <strong>confusion, pursuit, temporary warmth,</strong> and then withdrawal again.
-          This cycle is how
-          she maintains control. It may not always be malicious or calculated; sometimes it’s a deep-rooted emotional
-          defense. But the result is often the same—others feel emotionally disoriented and powerless. This can have
-          serious consequences on a person's self-esteem and emotional well-being.
-        </p>
-
-
-        <h3>How to Protect Yourself From Being Trapped?</h3>
-        <p>
-          To protect yourself, the first step is recognizing the behavior. <strong>Emotional detachment, silent
-            treatment, or
-            inconsistent affection</strong> are warning signs. Once you identify the pattern, setting clear personal
-          boundaries
-          becomes essential. For instance, you can calmly state that withdrawal or the silent treatment is unacceptable
-          and that you’ll disengage when it happens. Consistency is crucial; if boundaries are not respected, you must
-          follow through on consequences, even if it means distancing yourself from the person entirely.
-
-          Emotional manipulation thrives when the target is confused or seeking validation. To counter this, avoid
-          reacting emotionally. Techniques like the Grey Rock Method—where you remain <strong>calm, emotionally neutral,
-            and
-            uninteresting</strong>—can help stop the manipulator from getting the reaction they want. Keep your
-          communication brief
-          and factual, and do not share personal feelings if they’re used against you.
-
-          Trusting your instincts is vital. If interactions with someone consistently leave you feeling <strong>anxious,
-            guilty,
-            or inadequate,</strong> listen to that discomfort. Speaking to trusted friends or a therapist can help you
-          get
-          perspective and validation. Emotional manipulators often twist reality, making you doubt yourself. External
-          support helps anchor you in truth.
-
-          Self-care is not optional in such dynamics. Regular <strong>routines, creative outlets, physical health, and
-            time with
-            genuine people</strong> all build emotional strength. The more grounded you are in your own worth and
-          well-being, the
-          less susceptible you become to emotional control or withdrawal tactics. Ultimately, if someone continues to
-          use coldness as a weapon despite your boundaries, you are allowed to walk away. Emotional safety is a
-          priority, not a privilege someone else gets to decide you’ve earned.
-        </p>
-
-      </article>
-      <article>
-        <h2 id="vic">5. The Victim Player 🎭</h2>
-        <img src="victim-women.png" alt="victim" width="20%" height="40%">
-        <h3>Spot a Victim Player</h3>
-
-        <p>
-          The victim player is someone who habitually shifts blame onto others, <strong>refusing to take responsibility
-            for
-            their actions, decisions, or the consequences </strong>that naturally follow from them. They possess an
-          almost
-          instinctive ability to sidestep accountability, no matter how clear the evidence of their involvement may be.
-          When confronted with an issue, they do not reflect or consider their part in the situation; instead, they
-          quickly deflect fault, often with such emotional conviction that it leaves others
-          <strong>second-guessing</strong> themselves.
-          They are skilled storytellers when it comes to portraying themselves as the one who has been wronged, crafting
-          narratives that focus heavily on their <strong>pain, suffering, and mistreatment, even when those claims are
-            exaggerated, selective, or entirely fabricated.</strong>
-
-          This tendency isn’t merely a fear of being wrong—it is often a calculated use of sympathy as a shield. By
-          painting themselves as the injured party, they evoke guilt, pity, and protective instincts in those around
-          them, which makes it extremely difficult for anyone to challenge them without appearing <strong> cold, cruel,
-            or
-            heartless.</strong>This manipulation can be so subtle that it flies under the radar, cloaked in the language
-          of
-          vulnerability and hurt. Their emotional displays, whether genuine or staged, act as a smokescreen, diverting
-          attention away from the actual issue and placing the focus entirely on their supposed suffering.
-
-          Conversations with them tend to follow a predictable pattern. No matter what the original topic
-          <strong>was—whether a
-            disagreement, a misunderstanding, or a discussion</strong>about their behavior—the discussion inevitably
-          circles back
-          to how they have been <strong> hurt, wronged, or misunderstood.</strong> Even attempts to approach them with
-          compassion and
-          constructive criticism are reframed as attacks, becoming yet another way you have <strong>“made them feel bad”
-            or “let
-            them down.”</strong>Over time, these dynamics can wear you down emotionally. You may find yourself
-          constantly
-          defending your words and intentions, apologizing for things you didn’t do, or questioning your own memory of
-          events. The longer you remain in this cycle, the more you risk losing trust in your own perception of reality,
-          leaving you confused, guilty, and perpetually on the defensive. Ultimately, the victim player thrives in this
-          space of emotional imbalance, where their needs and feelings take precedence, and your self-confidence slowly
-          erodes under the weight of their constant accusations and reimagined history.
-
-        </p>
-
-        <h3>How to Protect Yourself From Being Trapped?</h3>
-
-        <p>
-          Protecting yourself from this pattern requires a combination of <strong>emotional awareness, self-discipline, and
-          clear, well-maintained boundaries.</strong> The very first step is to acknowledge and name the behavior for what it
-          is—manipulation—without allowing yourself to be pulled into the whirlwind of confusion, guilt, or
-          defensiveness that the victim player often creates. Recognizing the signs early can help you avoid becoming
-          entangled in the endless loop of explanations, apologies, and debates they thrive on. These individuals often
-          use drawn-out discussions as a tool to wear you down, so it’s important to keep your communication factual,
-          calm, and to the point. <strong>Avoid the temptation to over-explain yourself; the more detail you give, the more
-          opportunities they have to twist your words, distort events,</strong> or reinterpret your intentions in a way that
-          suits their narrative.
-
-          One powerful form of protection is maintaining a strong grip on your own reality. When you’re constantly
-          exposed to their version of events, it’s easy to start questioning your own memory or judgment. Writing down
-          important events, conversations, and specific incidents can serve as a reality check and a record to counter
-          false narratives later. This written account isn’t for them—it’s for you, so that you have tangible proof of
-          what actually happened when doubt creeps in. Alongside this, limit the amount of personal or emotionally
-          sensitive information you share. The victim player has a talent for using your vulnerabilities as tools for
-          manipulation, so keeping certain aspects of your life private can prevent them from having that leverage.
-
-          When they attempt to guilt-trip you or provoke an emotional reaction, resist the urge to respond from a place
-          of frustration or defensiveness. Instead, calmly restate your position or simply disengage from the
-          discussion. Emotional detachment is not cruelty—it’s a form of self-protection. Surround yourself with a
-          network of supportive, grounded people who can validate your experiences and offer clarity when your
-          self-perception is being distorted. These trusted connections act as anchors, helping you see the manipulation
-          more clearly and reminding you that you’re not overreacting or imagining things.
-
-          Finally, give yourself explicit permission to create distance—whether that means limiting <strong>contact, setting
-          time boundaries, or in some cases, completely removing yourself from the relationship.</strong> If every interaction
-          leaves you emotionally exhausted, second-guessing yourself, or feeling diminished, it’s a sign that your
-          well-being is being compromised. Remember, prioritizing your mental and emotional health is not selfish—it is
-          an act of self-respect and survival. Protecting yourself is not about “winning” against them; it’s about
-          refusing to let their behavior define your reality or control your peace.
-
-        </p>
-
-      </article>
-    </section>
-  </main>
-
-  <footer>
-
-
-
-    <p>&copy; 2025 BehindHerSmile. All rights reserved.</p>
+    <div class="dest-title">Flights To Top Countries from The United States</div>
+    <div class="dest-list-grid">
+      <div class="dest-col">
+        <a href="#" class="dest-link">Flights to India</a>
+        <a href="#" class="dest-link">Flights to United Arab Emirates</a>
+        <a href="#" class="dest-link">Flights to Kuwait</a>
+      </div>
+      <div class="dest-col">
+        <a href="#" class="dest-link">Flights to Egypt</a>
+        <a href="#" class="dest-link">Flights to Canada</a>
+        <a href="#" class="dest-link">Flights to Turkey</a>
+      </div>
+      <div class="dest-col">
+        <a href="#" class="dest-link">Flights to Saudi Arabia</a>
+        <a href="#" class="dest-link">Flights to Pakistan</a>
+      </div>
+      <div class="dest-col">
+        <a href="#" class="dest-link">Flights to Jordan</a>
+        <a href="#" class="dest-link">Flights to Iraq</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--FOOTER LINKS & INFORMATION-->
+<section>
+    <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-col">
+        <div class="footer-title">COMPANY</div>
+        <ul class="footer-list">
+          <li><a href="#">About Globefares</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Data Privacy Policy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>
+        Copyright ©2025 Globefares Pte Ltd. All Rights Reserved<br>
+        
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"></a>
+        <a href="#" aria-label="X">✖</a>
+        <a href="#" aria-label="Instagram">◉</a>
+        <a href="#" aria-label="LinkedIn">⧫</a>
+        <!-- Replace with SVG or icons in production -->
+      </div>
+    </div>
   </footer>
+</section>
+
+
+    
+
+
+
+  <script>
+
+    // CLASS DROPDOWN
+
+    const btn = document.getElementById("cabinBtn");
+    const menu = document.getElementById("cabinMenu");
+    const selectedText = document.getElementById("cabinSelected");
+
+    btn.addEventListener("click", () => {
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    });
+
+    // Update selected option
+    document.querySelectorAll(".cabin-menu li").forEach(item => {
+      item.addEventListener("click", () => {
+        document.querySelector(".cabin-menu .active")?.classList.remove("active");
+        item.classList.add("active");
+
+        selectedText.textContent = item.textContent.trim();
+        menu.style.display = "none";
+      });
+    });
+
+    // PASSENGERS TYPE
+
+   let maxPassengers = 9;
+
+// Set default values on load
+document.getElementById("adults").innerText = 1;
+document.getElementById("children").innerText = 0;
+document.getElementById("infantSeat").innerText = 0;
+document.getElementById("infantLap").innerText = 0;
+
+// ≈≈≈ FUNCTION: Total passengers
+function totalPassengers() {
+  return (
+    Number(document.getElementById("adults").innerText) +
+    Number(document.getElementById("children").innerText) +
+    Number(document.getElementById("infantSeat").innerText) +
+    Number(document.getElementById("infantLap").innerText)
+  );
+}
+
+// ≈≈≈ FUNCTION: Update top label
+function updatePassengerLabel() {
+  let total = totalPassengers();
+  document.getElementById("passengerCount").innerText =
+    total + (total > 1 ? " Passengers" : " Passenger");
+}
+
+// Set label on page load
+updatePassengerLabel();
+
+// ≈≈≈ FUNCTION: Change counts
+function changeCount(type, value) {
+  let el = document.getElementById(type);
+  let current = Number(el.innerText);
+
+  // prevent negative
+  if (current + value < 0) return;
+
+  // prevent exceeding limit
+  if (value === 1 && totalPassengers() >= maxPassengers) return;
+
+  el.innerText = current + value;
+  updatePassengerLabel();
+}
+
+// ≈≈≈ OPEN PASSENGER DROPDOWN
+document.getElementById("passengerBtn").onclick = () => {
+  document.getElementById("passengerMenu").style.display = "block";
+};
+
+// ≈≈≈ CLOSE PASSENGER DROPDOWN
+function closePassengers() {
+  document.getElementById("passengerMenu").style.display = "none";
+}
+
+// TRIP TYPE
+
+const tripBtn = document.getElementById("tripBtn");
+const tripMenu = document.getElementById("tripMenu");
+const tripSelected = document.getElementById("tripSelected");
+
+tripBtn.onclick = () => {
+  tripMenu.style.display =
+    tripMenu.style.display === "block" ? "none" : "block";
+};
+
+document.querySelectorAll(".triptype-menu li").forEach((item) => {
+  item.addEventListener("click", () => {
+    document
+      .querySelector(".triptype-menu li.active")
+      ?.classList.remove("active");
+
+    item.classList.add("active");
+    tripSelected.textContent = item.textContent.replace("✔", "").trim();
+    tripMenu.style.display = "none";
+  });
+});
+
+document.addEventListener("click", (e) => {
+  if (!tripBtn.contains(e.target) && !tripMenu.contains(e.target)) {
+    tripMenu.style.display = "none";
+  }
+});
+
+
+
+
+
+
+
+  </script>
+
 
 
 </body>
